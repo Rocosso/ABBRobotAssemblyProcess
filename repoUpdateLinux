@@ -1,18 +1,10 @@
 #!/bin/bash/
 
 
-
-
-read  -p "ingrese el mensaje para el commit: " COMMIT
-echo
-echo
-echo
-echo
-echo
-#echo "the message was $commit_mesagge"
 git init
 git status
 git add .
 git status
-git commit -m $COMMIT
+git commit 
+git pull origin master
 git push origin master
