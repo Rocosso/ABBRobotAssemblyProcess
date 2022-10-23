@@ -1,7 +1,8 @@
 #!/bin/bash/
 
-read nombre=
-nombrea=
+
+
+
 read  -p "ingrese el mensaje para el commit: " COMMIT
 echo
 echo
