@@ -1,5 +1,12 @@
 #!/bin/bash/
+# para correr este escript de actualizacion solo se debe abrir un git bash
+# y en el ejecutar ./repoUpdateLinux
 
+# una vez hecho esto nos aparecera un archivo de nano para ser escrito y guardado,
+# ahi debemos dejar el mensaje del commit y guardar.
+
+# al cerrar nano se realizara la actualizacion del repo paso  paso y dejara en la 
+# terminal el historial explicado de lo que ha hecho
 echo " ======================================================"
 echo " =                  reinicializando                   ="
 echo " ======================================================"
@@ -26,4 +33,10 @@ echo " ======================================================"
 echo " =                  subiendo a GitHub                 ="
 echo " ======================================================"
 git push origin master
-
+echo " ======================================================"
+echo " ======================================================"
+echo " =                                                    ="
+echo " =                      Finalizado                    ="
+echo " =                                                    ="
+echo " ======================================================"
+echo " ======================================================"
