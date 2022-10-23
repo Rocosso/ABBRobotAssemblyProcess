@@ -1,6 +1,7 @@
 #!/bin/bash/
 
-
+read nombre=
+nombrea=
 read  -p "ingrese el mensaje para el commit: " COMMIT
 echo
 echo
@@ -13,4 +14,4 @@ git status
 git add .
 git status
 git commit -m $COMMIT
-git push origin main
+git push origin master
