@@ -23,7 +23,7 @@
 
 # y por ultimo se guarda con enter
 
-# al cerrar nano se realizara la actualizacion del repo paso  paso y dejara en la 
+# al cerrar nano se realizara la actualizacion del repo paso a paso y dejara en la 
 # terminal el historial explicado de lo que ha hecho
 
 # si se desea usar este script para otros repositorios debe revisarse la rama a la que se desea subir la informacion
@@ -49,7 +49,7 @@ echo " =                  guarda el commit:                 ="
 echo " ======================================================"
 git commit 
 echo " ======================================================"
-echo " =                  actualizando:                     ="
+echo " =        actualizando repositorio local:             ="
 echo " ======================================================"
 git pull origin master
 echo " ======================================================"
